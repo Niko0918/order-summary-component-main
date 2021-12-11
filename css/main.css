@@ -1,0 +1,120 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+html {
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background: url(/images/pattern-background-desktop.svg) repeat-x;
+  background-color: hsl(225, 100%, 94%);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.order-summary-card h1,
+p {
+  text-align: center;
+}
+
+.order-summary-card h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.order-summary-card p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  line-height: 25px;
+}
+
+.order-summary-card {
+  box-shadow: 20px 20px 30px -25px grey;
+  border-radius: 20px;
+  width: 450px;
+  height: 697px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.order-summary-card .container {
+  padding: 10px 48px 0 48px;
+}
+
+.order-summary-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  height: 98px;
+  background: hsl(225, 100%, 98%);
+}
+
+.order-summary-plan a {
+  text-decoration: underline;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  margin-right: 23px;
+}
+
+.order-summary-plan strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.order-summary-plan img {
+  width: 48px;
+  height: 48px;
+}
+
+.order-summary-plan-description-container {
+  display: flex;
+  margin-left: 23px;
+}
+
+.order-summary-plan-description {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.payment-button {
+  cursor: pointer;
+  box-shadow: 5px 8px 20px -5px grey;
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px 0 15px 0;
+  margin: 32px 0 32px 0;
+  background: hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+.payment-button a {
+  color: white;
+}
+
+.cancel-order-button {
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cancel-order-button a {
+  color: hsl(224, 23%, 55%);
+}
